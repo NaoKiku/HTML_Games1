@@ -1,0 +1,41 @@
+/* CSS Styles for the Container and Start Screen */
+body{
+background: #000900;
+    /* Prevent the ugly blue highlighting from accidenta; selection of text */
+    user-select: none;
+}
+
+#wrapper{
+    position: absolute;
+}
+
+#gamecontainer{
+    
+    /* Set game container width, height, and background */
+    width: 800px;
+    height: 480px;
+    background: url("../images/splashscreen.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.gamelayer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+/* Game Starting Menu Screen */
+
+#gamestartscreen{
+    padding-top: 250px;
+    text-align: center;
+}
+
+#gamestartscreen img{
+    margin: 10px;
+    cursor: pointer;
+}
+
+
